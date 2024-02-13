@@ -1,0 +1,9 @@
+uvicorn
+fastapi
+scikit-learn
+pillow
+tensorflow
+numpy
+pandas
+streamlit
+python-multipart
