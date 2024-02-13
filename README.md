@@ -1,8 +1,8 @@
-# Fashion MNIST CNN Model Deployment 👗👟
+# Fashion MNIST image classification with TensorFlow and FastAPI
 
 ## Overview
 
-This project demonstrates the development and deployment of a Convolutional Neural Network (CNN) model for classifying images from the Fashion MNIST dataset. The trained model is deployed using Streamlit, allowing users to interactively test the model with custom images.
+This project demonstrates the development and deployment of a Convolutional Neural Network (CNN) model for classifying images from the Fashion MNIST dataset. The trained model is deployed using FastAPI, allowing users to interactively test the model with custom images.
 
 ## Dataset
 
@@ -10,8 +10,6 @@ The Fashion MNIST dataset consists of 60,000 28x28 grayscale images of 10 fashio
 
 
 ## Quick Start
-
-
  
 ```bash
 
@@ -27,10 +25,14 @@ pip install -r requirements.txt
 # Run the model
 python model.py
 
-# Run the Streamlit app
-streamlit run app.py
+# Running the FastAPI Application
+uvicorn app:app --reload
 
 ```
+Making Predictions:
+
+Make predictions by sending POST requests to the /predict endpoint with an image file attached.
+
 
 ## License
 This Market Basket Analysis project is licensed under the MIT License.
