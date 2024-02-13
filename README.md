@@ -11,7 +11,6 @@ The Fashion MNIST dataset consists of 60,000 28x28 grayscale images of 10 fashio
 
 ## Quick Start
 
-1. Clone the repository:
 
  
 ```bash
