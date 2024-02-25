@@ -9,6 +9,7 @@ This project demonstrates the development and deployment of a Convolutional Neur
 The Fashion MNIST dataset consists of 60,000 28x28 grayscale images of 10 fashion categories and a test set of 10,000 images. The categories include T-shirts/tops, trousers, pullovers, dresses, coats, sandals, shirts, sneakers, bags, and ankle boots.
 
 
+
 ## Quick Start
  
 ```bash
