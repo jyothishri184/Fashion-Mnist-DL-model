@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the development and deployment of a Convolutional Neural Network (CNN) model for classifying images from the Fashion MNIST dataset. The trained model is deployed using FastAPI, allowing users to interactively test the model with custom images.
+This project demonstrates the development and deployment of a Convolutional Neural Network (CNN) model for classifying images from the Fashion MNIST dataset. The trained model is deployed using FastAPI, allowing users to interactively test the model with custom images. 
 
 ## Dataset
 
